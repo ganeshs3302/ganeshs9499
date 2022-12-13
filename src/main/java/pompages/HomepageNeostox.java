@@ -19,21 +19,23 @@ public class HomepageNeostox {
 	{
 	PageFactory.initElements(driver, this);
 	}
-	public void popUpHandle(WebDriver driver)
-	{
-	Utilityclass.wait(driver, 1000);
-	okButton.click();
 	
-	Utilityclass.wait(driver, 1000);
-	closeButton.click();
-	Reporter.log("Handeling popup..",true);
-	}
-	public String getUserName()
-	{
-	String actualUserName = userName.getText();
-	Reporter.log("getting user Name",true);
-	return actualUserName;
-	}
+	
+//	public void popUpHandle(WebDriver driver)
+//	{
+//	Utilityclass.wait(driver, 1000);
+//	okButton.click();
+//	
+//	Utilityclass.wait(driver, 1000);
+//	closeButton.click();
+//	Reporter.log("Handeling popup..",true);
+//	}
+//	public String getUserName()
+//	{
+//	String actualUserName = userName.getText();
+//	Reporter.log("getting user Name",true);
+//	return actualUserName;
+//	}
 	public String getBalance(WebDriver driver)
 	{
 		Utilityclass.wait(driver, 1000);
