@@ -19,6 +19,10 @@ public class HomepageNeostox {
 	{
 	PageFactory.initElements(driver, this);
 	}
+	
+	//
+	//
+	//
 	public void popUpHandle(WebDriver driver)
 	{
 	Utilityclass.wait(driver, 1000);
